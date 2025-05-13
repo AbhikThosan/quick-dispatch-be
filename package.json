@@ -2,11 +2,11 @@
   "name": "quick-dispatch-be",
   "version": "1.0.0",
   "description": "**Quick-Dispatch** is a real-time chat application's backend built with **Node.js**, **Express.js**, **MongoDB**, and **Socket.IO**. This service powers private chats, group messaging, file uploads, and real-time communication features for the Dispatch chat app.",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
   },
   "type": "module",
   "repository": {
